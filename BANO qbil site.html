@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bano Qabil Clone</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* NAVBAR */
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background-color:white;
+    padding:15px 50px;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.logo img{
+    width:60px;
+}
+
+.logo h2{
+    color:black;
+}
+
+.nav-links a{
+    color:black;
+    text-decoration:none;
+    margin:0 15px;
+    font-size:18px;
+}
+
+.nav-links a:hover{
+    color:#00bfff;
+}
+
+/* HERO SECTION */
+
+.hero{
+
+   height:80vh;
+    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url(https://website-assests-v2.s3.us-east-1.amazonaws.com/banner/banner_1.jpeg);
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+    padding:20px;  
+}
+
+.hero-content h1{
+    font-size:60px;
+    margin-bottom:20px;
+  
+}
+
+.hero-content p{
+    font-size:22px;
+    margin-bottom:30px;
+}
+
+
+/* SERVICES */
+
+.services{
+    padding:70px 50px;
+    text-align:center;
+    background-color:black;
+}
+
+.services h2{
+    font-size:40px;
+    margin-bottom:40px;
+    color:#075e69;
+}
+
+.service-boxes{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.box{
+    background:black;
+    width:300px;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0px 0px 10px rgba(0,0,0,0.2);
+}
+
+.box img{
+    width:100%;
+    border-radius:10px;
+}
+
+.box h3{
+    margin:20px 0;
+    color:#075e69;
+}
+
+.box p{
+    color:#444;
+}
+
+/* COURSES */
+
+.courses{
+    padding:70px 50px;
+    text-align:center;
+}
+
+.courses h2{
+    font-size:40px;
+    margin-bottom:40px;
+    color:#075e69;
+}
+
+.course-cards{
+    display:flex;
+    gap:25px;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.card{
+    width:280px;
+    background:white;
+    border-radius:12px;
+    overflow:hidden;
+    box-shadow:0px 0px 10px rgba(0,0,0,0.2);
+}
+
+.card img{
+    width:100%;
+}
+
+.card h3{
+    padding:15px;
+}
+
+.card p{
+    padding:0 15px 20px;
+}
+
+/* FOOTER */
+
+footer{
+    background:#0b1f3a;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<div class="navbar">
+
+    <div class="logo">
+        <img src=https://website-assests-v2.s3.us-east-1.amazonaws.com/logo.png
+
+        <h2>Bano Qabil</h2>
+    </div>
+
+    <div class="nav-links">
+        <a href="#">Home</a>
+        <a href="#">Courses</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </div>
+
+</div>
+
+<!-- HERO SECTION -->
+
+<section class="hero">
+
+    <div class="hero-content">
+
+    </div>
+
+</section>
+
+<!-- SERVICES -->
+
+<section class="services">
+
+    <h2>Our Services</h2>
+
+    <div class="service-boxes">
+
+        <div class="box">
+            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3">
+
+            <h3>Web Development</h3>
+
+            <p>
+                Learn HTML, CSS, JavaScript and build websites.
+            </p>
+        </div>
+
+        <div class="box">
+            <img src="https://images.unsplash.com/photo-1545239351-1141bd82e8a6">
+
+            <h3>Graphic Designing</h3>
+
+            <p>
+                Learn Photoshop, Canva and professional design skills.
+            </p>
+        </div>
+
+        <div class="box">
+            <img src="https://images.unsplash.com/photo-1552664730-d307ca884978">
+
+            <h3>Digital Marketing</h3>
+
+            <p>
+                Master SEO, Facebook Ads and online marketing.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- COURSES -->
+
+<section class="courses">
+
+    <h2>Popular Courses</h2>
+
+    <div class="course-cards">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085">
+
+            <h3>Frontend Development</h3>
+
+            <p>Learn HTML CSS JavaScript professionally.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d">
+
+            <h3>UI / UX Design</h3>
+
+            <p>Create modern mobile and website designs.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f">
+
+            <h3>Freelancing</h3>
+
+            <p>Start earning online through Fiverr and Upwork.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+
+    <p>
+        © 2026 Bano Qabil Clone Website | Created By Muskan
+    </p>
+
+</footer>
+
+</body>
+</html>
